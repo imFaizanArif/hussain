@@ -5,9 +5,9 @@ export const Home = () => {
         <div>
             <Hero />
             <ProjectOverview />
-            <Problem bgColor="bg-grid-purple-600" />
-            <Problem />
-            <Project />
+            <Problem bgColor="bg-grid-purple-600" color="text-white" />
+            <Problem bgColor="bg-grid-purple-50" />
+            <Project flow="flex-col-reverse" />
             {/* <Solution /> */}
         </div>
     )
