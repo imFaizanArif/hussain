@@ -1,4 +1,4 @@
-import { Hero, Problem, ProjectOverview } from "@/components"
+import { Hero, Problem, Project, ProjectOverview } from "@/components"
 
 export const Home = () => {
     return (
@@ -7,6 +7,7 @@ export const Home = () => {
             <ProjectOverview />
             <Problem bgColor="bg-grid-purple-600" />
             <Problem />
+            <Project />
             {/* <Solution /> */}
         </div>
     )
