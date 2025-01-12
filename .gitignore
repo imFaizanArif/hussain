@@ -1,0 +1,58 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+.out/
+.next/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor settings
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Testing
+coverage/
+.nyc_output/
+jest-test-results.json
+
+# Other configurations
+.eslintcache
+.stylelintcache
+.prettierignore
+*.cache
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Custom exclusions
+public/assets/temp/ # Example: Temporary asset folder

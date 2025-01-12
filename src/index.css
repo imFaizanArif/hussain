@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-raleway;
+  font-family: 'Raleway';
+  font-display: block;
+}
+
+@layer utilities {
+  .text-body {
+    @apply whitespace-normal;
+    max-width: 450px;
+    margin-bottom: 50px;
+    margin-right: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+}
