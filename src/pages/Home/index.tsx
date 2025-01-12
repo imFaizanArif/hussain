@@ -14,7 +14,7 @@ export const Home = () => {
                 <div className='py-[15px] sm:py-[15px] lg:py-[60px] text-primary max-w-[1360px] mx-auto'>
                     <div className={`flex flex-col md:flex-row justify-between items-center py-[60px] px-[30px] sm:px-[30px] md:[px-45] lg:px-[60px] mx-auto`}>
                         <LeftCard />
-                        <img src="/assets/project2.png" alt="" className="ml-0 md:ml-24 mb-12 sm:mb-12 md:mb-0" />
+                        <img src="/assets/project2.png" alt="" className="ml-0 md:ml-24 mb-12 sm:mb-12 md:mb-0 mt-6 md:mt-24" />
                     </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@ export const Home = () => {
                         <h1 className="text-[30px] sm:text-[30px] lg:text-[50px] font-normal">Discover</h1>
                     </div>
                     <div className=' text-primary max-w-[1360px] mx-auto'>
-                        <div className={`flex flex-col md:flex-row justify-between items-center py-[60px] px-[30px] sm:px-[30px] md:[px-45] lg:px-[60px] mx-auto`}>
+                        <div className={`flex md:flex-row flex-col-reverse justify-between items-center py-[60px] px-[30px] sm:px-[30px] md:[px-45] lg:px-[60px] mx-auto`}>
                             <img src="/assets/project3.png" alt="" className="mr-0 md:mr-24 mt-12 sm:mt-12 md:mt-0" />
                             <LeftCard />
                         </div>
@@ -40,7 +40,7 @@ export const Home = () => {
                         <LeftCard />
                         <div>
 
-                            <img src="/assets/project4.png" alt="" className="ml-0 md:ml-24 mb-12 sm:mb-12 md:mb-0" />
+                            <img src="/assets/project4.png" alt="" className="ml-0 md:ml-24 mb-12 sm:mb-12 md:mb-0 mt-6 md:mt-0" />
                             <img src="/assets/project5.png" alt="" className="ml-0 md:ml-24 mb-12 sm:mb-12 md:mb-0 mt-6 md:mt-24" />
                         </div>
                     </div>
