@@ -1,6 +1,10 @@
-export const LeftCard = () => {
+type LeftCardProps = {
+    color?: string;
+}
+
+export const LeftCard: React.FC<LeftCardProps> = ({ color }) => {
     return (
-        <div className="w-full md:w-1/2">
+        <div className={`w-full md:w-1/2 ${color ? color : 'text-primary'}`}>
             <p className="text-[9px] font-semibold mb-2 tracking-[3.5px] text-grid-purple-500 ">PROJECT OVERVIEW</p>
             <h1 className="text-[24px] sm:text-[24px] lg:text-[32px] font-bold mb-[35px]">The mission</h1>
             <p className="text-body">The Atlassian Design System (ADS) is a collection of UI foundations, components, patterns and standards used to create harmonious product experiences. We’re on a mission to make it easy for teams to design, develop and deliver high-quality user interfaces.
