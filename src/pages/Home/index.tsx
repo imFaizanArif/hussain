@@ -1,4 +1,4 @@
-import { DesignProcess, Hero, Insights, PartThree, PartTwo, Problem, Project, ProjectOverview } from "@/components"
+import { DesignProcess, Hero, PartTwo, Problem, Project, ProjectOverview } from "@/components"
 
 export const Home = () => {
     return (
