@@ -8,9 +8,10 @@ type DesignProcessProps = {
     img1?: string;
     img2?: string;
     imgSize?: string;
+    topImgSize?: string;
 };
 
-export const DesignProcess: React.FC<DesignProcessProps> = ({ bgColor, color, flow, img1, img2, imgSize }) => {
+export const DesignProcess: React.FC<DesignProcessProps> = ({ bgColor, color, flow, img1, img2, imgSize, topImgSize }) => {
     return (
         <div className={`w-full ${bgColor}`}>
             <div className={`py-[15px] sm:py-[15px] lg:py-[60px] ${color ? color : 'text-primary'} max-w-[1360px] mx-auto`}>
@@ -18,7 +19,7 @@ export const DesignProcess: React.FC<DesignProcessProps> = ({ bgColor, color, fl
                     <LeftCard color={color} />
                     <div>
                         {/* ml-0 md:ml-24 mb-12 sm:mb-12 md:mb-0 mt-6 md:mt-24 */}
-                        {img1 ? <img src={img1} alt="" className={`${imgSize} mt-12 sm:mt-12 md:mt-0`} /> : null}
+                        {img1 ? <img src={img1} alt="" className={`${topImgSize} ${imgSize} mt-12 sm:mt-12 md:mt-0`} /> : null}
                         {img2 ? <img src={img2} alt="" className={`${imgSize} mt-6 md:mt-24`} /> : null}
                     </div>
                 </div>
