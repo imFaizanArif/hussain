@@ -11,7 +11,7 @@ export const PartTwo: React.FC<PartTwoProps> = ({ bgColor, img, flow, cardFlow }
     return (
         <div className={`w-full ${bgColor ? bgColor : 'bg-white'}`}>
             <div className='py-[15px] sm:py-[15px] lg:py-[60px] text-primary max-w-[1360px] mx-auto'>
-                <div className="text-center pt-0 md:pt-[60px] pb-[60px] px-[30px] sm:px-[30px] md:[px-45] lg:px-[60px]">
+                <div className="text-center pt-[60px] pb-0 md:pb-[60px] px-[30px] sm:px-[30px] md:[px-45] lg:px-[60px]">
                     <p className="tracking-[8px] text-grid-purple-500 font-semibold text-sm">
                         PART&nbsp; TWO
                     </p>
